@@ -10,6 +10,7 @@ import Foundation
 extension Bundle {
     
     func decode<T: Codable>(_ file: String) -> T {
+        
         // MARK: - Locate the json file
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Failed to create \(file) in bundle.")
