@@ -32,6 +32,8 @@
 		CDB9EA9F25D8CCDD00596500 /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9EA9E25D8CCDD00596500 /* CoverImageModel.swift */; };
 		CDB9EAA425D8CDFF00596500 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9EAA325D8CDFF00596500 /* CodableBundleExtension.swift */; };
 		CDB9EAA825D8D04100596500 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9EAA725D8D04100596500 /* HomeView.swift */; };
+		CDB9EAAC25D8D3C600596500 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9EAAB25D8D3C600596500 /* AnimalListItemView.swift */; };
+		CDB9EAAF25D8D9DB00596500 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB9EAAE25D8D9DB00596500 /* AnimalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		CDB9EA9E25D8CCDD00596500 /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		CDB9EAA325D8CDFF00596500 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		CDB9EAA725D8D04100596500 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CDB9EAAB25D8D3C600596500 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
+		CDB9EAAE25D8D9DB00596500 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				CDB9EA9925D8CAC300596500 /* CoverImageView.swift */,
+				CDB9EAAB25D8D3C600596500 /* AnimalListItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				CDB9EA9E25D8CCDD00596500 /* CoverImageModel.swift */,
+				CDB9EAAE25D8D9DB00596500 /* AnimalModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,6 +270,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDB9EAA825D8D04100596500 /* HomeView.swift in Sources */,
+				CDB9EAAC25D8D3C600596500 /* AnimalListItemView.swift in Sources */,
+				CDB9EAAF25D8D9DB00596500 /* AnimalModel.swift in Sources */,
 				CDB9EA9625D8C5F200596500 /* MainView.swift in Sources */,
 				CDB9EA9A25D8CAC300596500 /* CoverImageView.swift in Sources */,
 				CDB9EA9F25D8CCDD00596500 /* CoverImageModel.swift in Sources */,
