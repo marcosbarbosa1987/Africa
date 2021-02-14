@@ -13,7 +13,7 @@ struct MainView: View {
             
             // MARK: - First tab
             
-            ContentView()
+            HomeView()
                 .tabItem {
                     Image(systemName: "square.grid.2x2")
                     Text("Browse")
