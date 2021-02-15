@@ -17,14 +17,15 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView {
-            
             List {
                 CoverImageView()
                     .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                     .padding(.bottom, 16)
                 
-                ForEach(animals) { item in
-                    AnimalListItemView(animal: item)
+                ForEach(animals) { animal in
+                    NavigationLink(destination: AnimalDetailView(animal: animal)) {
+                        AnimalListItemView(animal: animal)
+                    }
                 }
                 
             }//: List
