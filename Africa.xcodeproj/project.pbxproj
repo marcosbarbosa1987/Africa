@@ -47,6 +47,7 @@
 		CDF6450725DB0CFF001C5A29 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450625DB0CFF001C5A29 /* LocationModel.swift */; };
 		CDF6450A25DB3601001C5A29 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450925DB3601001C5A29 /* MapAnnotationView.swift */; };
 		CDF6450D25DB6098001C5A29 /* MontionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450C25DB6098001C5A29 /* MontionAnimationView.swift */; };
+		CDF6451025DC1E87001C5A29 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450F25DC1E87001C5A29 /* AnimalGridItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		CDF6450625DB0CFF001C5A29 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		CDF6450925DB3601001C5A29 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 		CDF6450C25DB6098001C5A29 /* MontionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontionAnimationView.swift; sourceTree = "<group>"; };
+		CDF6450F25DC1E87001C5A29 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				CDF644FE25DAE969001C5A29 /* VideoPlayerView.swift */,
 				CDF6450925DB3601001C5A29 /* MapAnnotationView.swift */,
 				CDF6450C25DB6098001C5A29 /* MontionAnimationView.swift */,
+				CDF6450F25DC1E87001C5A29 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				CDB9EA8D25D8C59100596500 /* VideoListView.swift in Sources */,
 				CDF644F825DAE1E7001C5A29 /* VideoModel.swift in Sources */,
 				CDB9EA9325D8C5DB00596500 /* GalleryView.swift in Sources */,
+				CDF6451025DC1E87001C5A29 /* AnimalGridItemView.swift in Sources */,
 				CDF6450725DB0CFF001C5A29 /* LocationModel.swift in Sources */,
 				CDB9EABE25DA09BB00596500 /* InsetGalleryView.swift in Sources */,
 				CDF644FB25DAE24F001C5A29 /* VideoListItemView.swift in Sources */,
