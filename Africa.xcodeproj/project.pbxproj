@@ -46,6 +46,7 @@
 		CDF6450325DAEA6E001C5A29 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450225DAEA6E001C5A29 /* VideoPlayerHelper.swift */; };
 		CDF6450725DB0CFF001C5A29 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450625DB0CFF001C5A29 /* LocationModel.swift */; };
 		CDF6450A25DB3601001C5A29 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450925DB3601001C5A29 /* MapAnnotationView.swift */; };
+		CDF6450D25DB6098001C5A29 /* MontionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF6450C25DB6098001C5A29 /* MontionAnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +91,7 @@
 		CDF6450225DAEA6E001C5A29 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		CDF6450625DB0CFF001C5A29 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		CDF6450925DB3601001C5A29 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
+		CDF6450C25DB6098001C5A29 /* MontionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MontionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				CDF644FA25DAE24F001C5A29 /* VideoListItemView.swift */,
 				CDF644FE25DAE969001C5A29 /* VideoPlayerView.swift */,
 				CDF6450925DB3601001C5A29 /* MapAnnotationView.swift */,
+				CDF6450C25DB6098001C5A29 /* MontionAnimationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				CDB9EAC425DA170900596500 /* InsetMapView.swift in Sources */,
 				CDF6450325DAEA6E001C5A29 /* VideoPlayerHelper.swift in Sources */,
 				CDB9EA5A25D8B47B00596500 /* AfricaApp.swift in Sources */,
+				CDF6450D25DB6098001C5A29 /* MontionAnimationView.swift in Sources */,
 				CDB9EAC725DA1CE800596500 /* ExternalWebLinkView.swift in Sources */,
 				CDF6450A25DB3601001C5A29 /* MapAnnotationView.swift in Sources */,
 				CDB9EA8D25D8C59100596500 /* VideoListView.swift in Sources */,
