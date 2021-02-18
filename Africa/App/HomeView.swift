@@ -62,6 +62,8 @@ struct HomeView: View {
                                 AnimalListItemView(animal: animal)
                             }
                         }//: Loop
+                        CreditsView()
+                            .modifier(CenterModifier())
                     }//: List
                 } else {
                     ScrollView(.vertical) {
