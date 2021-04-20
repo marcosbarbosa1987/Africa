@@ -16,7 +16,6 @@ struct NationalParkLocation: Codable, Identifiable {
     let longitude: Double
     
     // MARK: - Computed property
-    
     var location: CLLocationCoordinate2D {
         CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
     }

@@ -13,7 +13,6 @@ struct Video: Codable, Identifiable {
     let headline: String
     
     // MARK: - Computed property
-    
     var thumbnail: String {
         "video-\(id)"
     }
